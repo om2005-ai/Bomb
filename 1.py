@@ -54,6 +54,3 @@ df['Sex'] = df['Sex'].map({'male': 0, 'female': 1})
 
 print(df[['Sex']].head())
 print(df['Sex'].isnull().sum())
-
-df_filtered = df[df['Age'] > 0.5]
-print(df_filtered.head())
